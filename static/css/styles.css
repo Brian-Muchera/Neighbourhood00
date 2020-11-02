@@ -1,6 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import 'https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Shadows+Into+Light&display=swap');
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Courgette', cursive; 
     background: #fafafa;
 }
 .form-text, .asteriskField{
@@ -41,7 +43,7 @@ a:focus {
 
 .navbar {
     padding: 20px 10px;
-    background-color: #35495e;
+    background-color: #0751a0;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -64,10 +66,10 @@ span {
     align-items: stretch;
 }
 .tt{
-    color:#1a3e59;
+    color:#0f72bd;
 }
 .hpost{
-   background-color:#1a3e59;
+   background-color:#1d85d4;
    color: white;
 }
 .poster{
@@ -78,7 +80,7 @@ span {
     min-width: 250px;
     max-width: 250px;
     padding-right:10px;
-    background: #1a3e59;
+    background: #0c77c9;
     color: #fff;
     position: -webkit-sticky;
     position: sticky;
@@ -152,8 +154,8 @@ span {
 }
 
 #sidebar ul li a:hover {
-    color: teal;
-    background: #fff;
+    color: rgb(17, 230, 230);
+    background: #0d0d0e;
 }
 
 #sidebar ul li a i {
@@ -163,7 +165,7 @@ span {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: #364794;
 }
 
 a[data-toggle="collapse"] {
@@ -181,7 +183,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #304399;
 }
 
 ul.CTAs {
